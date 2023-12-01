@@ -1,0 +1,83 @@
+.content { 
+	text-align: left; 
+	padding: 30px; 
+	margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60vw;
+}
+#v-output {width: 100%;}
+.details { 
+	margin-left: auto; 
+	margin-right: auto; 
+} 
+
+img { 
+	border-radius: 5px; 
+	box-shadow: black; 
+} 
+
+table, 
+td { 
+	border-collapse: collapse; 
+	margin-left: auto; 
+	margin-right: auto; 
+	text-align: center; 
+	padding: 10px; 
+	border: 1px solid black; 
+}
+#file-thumb {
+    height: 150px;
+    float: right;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 1rem;
+}
+#v-output {
+    border: 1px solid #e0e0e0;
+    display: block;
+    clear: both;
+    height: auto;
+    float: left;
+}
+.img-avatar {
+    border-radius: 100%;
+    width: 50px;
+    border: 1px solid #e0e0e0;
+}
+
+dl {
+    display: block;
+    clear: both;
+    margin: 1rem 0;
+    float: left;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+}
+dt {
+    float: left;
+    display: inline-block;
+    margin: 0 1rem;
+    width: 8rem;
+    font-weight: 600;
+}
+dd {
+    float: left;
+    display: inline-block;
+    margin: 0 1rem;
+    vertical-align: top;
+}
+dd + dt {
+    clear: left;
+}
+dd,dt {
+    margin-bottom: 0.5rem;
+}
+.v-date {
+    color: #666;
+    font-size: 14px;
+}
+.fa {
+    margin-right: 1.5rem;
+    font-style: normal;
+    font-size: 3rem;
+    vertical-align: middle;
+}
